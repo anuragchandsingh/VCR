@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css"
+	type="text/css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"
+	type="text/css">
+</head>
+<body style="background-color: hsl(0, 0%, 96%)">
+	<div class="container">
+    <div class="row gx-lg-5 align-items-center vh-100">
+    
+    <!-- Content section -->
+        <div class="col-lg-6 mx-auto">
+            <div class="card border-0"style="background-color: hsl(0, 0%, 96%)">
+                <div class="card-body d-flex flex-column align-items-center">
+					<h1 class="my-2 display-6 fw-bold ls-tight">
+						Welcome to<br />
+					</h1>
+					<h1 class="my-2 display-4 fw-bold ls-tight">
+						<span class="text-primary">Virtual Class Room</span>
+					</h1>			
+					<br>
+					<p style="color: hsl(217, 10%, 50.8%)">The main idea of
+						Virtual Classroom System is to overcome the disadvantages of
+						traditional classroom interaction of student and faculty.The
+						Virtual Classroom System replaces the manual system with online
+						Interactive Classroom using RMI.
+					</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- form section -->
+        <div class="col-lg-6">
+        	
+            <div class="card shadow-lg border" style="border-radius:2rem;">
+            	<center><div class="mt-4 h3 fw-bold ls-tight"><u>Register</u></div></center>
+                <div class="card-body px-md-5">
+                   <form method="post" action=Register>
+
+									<div data-mdb-input-init class="form-outline mb-2">
+										<label class="form-label" for="form3Example3">Select
+											Role</label> 
+										<select name="cars" id="role" name="role" class="form-control">
+											<option hidden>-- Select Role --</option>
+											<option value="lecturer">Lecturer</option>
+											<option value="student">Student</option>
+										</select>
+									</div>
+									
+									<div data-mdb-input-init class="form-outline mb-2">
+										<label class="form-label" for="form3Example3">Name</label>
+										<input type="email" id="name" name="name" class="form-control" />
+									</div>
+
+									<div data-mdb-input-init class="form-outline mb-2">
+										<label class="form-label" for="form3Example3">User Id</label>
+										<input type="email" id="userid" name="userid" class="form-control" />
+									</div>
+
+									<div data-mdb-input-init class="form-outline mb-2">
+										<label class="form-label" for="form3Example4">Password</label>
+										<input type="password" id="passwword" name="password" class="form-control" />
+									</div>
+									
+									<div data-mdb-input-init class="form-outline mb-2">
+										<label class="form-label" for="form3Example4">Confirm Password</label>
+										<input type="password" id="confirmpassword" name="confirmpassword" class="form-control" />
+									</div>
+
+									<div class="row">
+										<div class="col-md-8 mb-2">
+											<p>For Login:
+											<a href="login.html" style="text-decoration:none;">Click here to Login</a>
+											</p>
+										</div>
+										<div class="col-md-4 mt-2 d-flex justify-content-end">
+											<button type="submit" data-mdb-button-init
+												data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
+												Register</button>
+										</div>
+									</div>
+								</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
